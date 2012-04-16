@@ -3,8 +3,10 @@
     package="com.randarlabs.android.app.SMC"
     android:versionCode="1"
     android:versionName="1.0" >
-
-    <uses-sdk android:minSdkVersion="10" />
+	
+    <uses-feature android:glEsVersion="0x00020000"/>
+    <uses-sdk android:minSdkVersion="8" 
+              android:targetSdkVersion="10"/>
 
     <application
         android:icon="@drawable/idr_main"
